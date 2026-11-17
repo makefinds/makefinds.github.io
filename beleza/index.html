@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Achadinhos — Beleza</title>
+<meta name="description" content="Achadinhos de make, pincéis e acessórios de beleza.">
+<style>
+  :root { --bg:#fff7f2; --card:#fff; --ink:#1f2937; --muted:#6b7280; --brand:#ea580c; --line:#f1e4dc; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16110e; --card:#221a16; --ink:#f5efe9; --muted:#a8a29e; --line:#3a2e27; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); }
+  header { text-align:center; padding:28px 16px 12px; }
+  h1 { margin:0 0 6px; font-size:1.5rem; }
+  .sub { color:var(--muted); font-size:.9rem; margin:0; }
+  .search { display:block; width:100%; max-width:560px; margin:16px auto 0; padding:12px 14px; font-size:1rem;
+            border:2px solid var(--line); border-radius:12px; background:var(--card); color:var(--ink); }
+  main { max-width:560px; margin:0 auto; padding:12px 16px 40px; }
+  .item { display:flex; gap:12px; align-items:center; background:var(--card); border:1px solid var(--line);
+          border-radius:14px; padding:10px; margin-bottom:10px; }
+  .thumb { width:76px; height:76px; border-radius:10px; object-fit:cover; flex:none; background:var(--line);
+           display:flex; align-items:center; justify-content:center; font-size:2rem; }
+  .info { flex:1; min-width:0; }
+  .num { font-size:.75rem; font-weight:700; color:var(--brand); }
+  .name { font-weight:600; font-size:.95rem; line-height:1.25; margin:2px 0 4px;
+          display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .price { font-weight:700; } .old { color:var(--muted); text-decoration:line-through; font-size:.8rem; margin-left:4px; }
+  .off { background:#dcfce7; color:#166534; font-size:.7rem; font-weight:700; padding:1px 6px; border-radius:99px; margin-left:4px; }
+  .btn { flex:none; background:var(--brand); color:#fff; text-decoration:none; font-weight:700; font-size:.85rem;
+         padding:10px 14px; border-radius:10px; }
+  .when { color:var(--muted); font-size:.7rem; }
+  footer { text-align:center; color:var(--muted); font-size:.75rem; padding:0 16px 32px; max-width:560px; margin:0 auto; }
+  .empty { text-align:center; color:var(--muted); padding:40px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Achadinhos — Beleza</h1>
+  <p class="sub">Digite o número do achadinho que você viu no post 👇</p>
+  <input class="search" id="q" type="search" inputmode="search" placeholder="Ex.: 57 ou nome do produto" aria-label="Buscar achadinho">
+</header>
+<main>
+  
+  <div class="item" data-search="7 07 pó facial aveludado bt skinpowder - bruna tavares">
+    <img class="thumb" src="../fotos/shopee-30.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 07</div>
+      <div class="name">Pó Facial Aveludado BT Skinpowder - Bruna Tavares</div>
+      <div><span class="price">R$ 26,30</span><span class="old">R$ 59,90</span><span class="off">-56%</span></div>
+      <div class="when">preço consultado em 18/11 19:06</div>
+    </div>
+    <a class="btn" href="https://shopee.com.br/P%C3%B3-Facial-Aveludado-BT-Skinpowder-Bruna-Tavares-i.1074053170.23598356554?extraParams=%7B%22display_model_id%22%3A159545256980%2C%22model_selection_logic%22%3A3%7D&amp;image_ids=br-11134207-7r98o-m7xurbv4a50x92" target="_blank" rel="nofollow noopener">Ver</a>
+  </div>
+  
+  <div class="item" data-search="6 06 lápis de sobrancelha à prova d&#39;água de longa duração definição natural 4 pontas preenche falhas">
+    <img class="thumb" src="../fotos/shopee-29.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 06</div>
+      <div class="name">Lápis De Sobrancelha À Prova D&#39;água De Longa Duração Definição Natural 4 Pontas Preenche Falhas</div>
+      <div><span class="price">R$ 18,29</span></div>
+      <div class="when">preço consultado em 18/11 17:47</div>
+    </div>
+    <a class="btn" href="https://shopee.com.br/L%C3%A1pis-De-Sobrancelha-%C3%80-Prova-D&#39;%C3%A1gua--De-Longa-Dura%C3%A7%C3%A3o---Defini%C3%A7%C3%A3o-Natural---4-Pontas--Preenche-Falhas-i.1057711992.19199649259" target="_blank" rel="nofollow noopener">Ver</a>
+  </div>
+  
+  <div class="item" data-search="5 05 kit big mouth rosa (ph007) big mouth incolor (ph008)">
+    <img class="thumb" src="../fotos/shopee-31.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 05</div>
+      <div class="name">KIT BIG MOUTH ROSA (PH007) BIG MOUTH INCOLOR (PH008)</div>
+      <div><span class="price">R$ 39,99</span></div>
+      <div class="when">preço consultado em 18/11 20:35</div>
+    </div>
+    <a class="btn" href="https://shopee.com.br/KIT-BIG-MOUTH-ROSA-(PH007)-BIG-MOUTH-INCOLOR-(PH008)-i.434200296.23997152231?extraParams=%7B%22display_model_id%22%3A229398165216%2C%22model_selection_logic%22%3A3%7D&amp;image_ids=br-11134207-7r98o-lwt1gi00xkluca" target="_blank" rel="nofollow noopener">Ver</a>
+  </div>
+  
+  <div class="item" data-search="4 04 blush em bastão on-the-go – blush, batom e sombra">
+    <img class="thumb" src="../fotos/shopee-28-v2.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 04</div>
+      <div class="name">Blush em Bastão On-the-Go – blush, batom e sombra</div>
+      <div><span class="price">R$ 20,19</span></div>
+      <div class="when">preço consultado em 17/11 22:13</div>
+    </div>
+    <a class="btn" href="https://s.shopee.com.br/2LZxIW4kmh" target="_blank" rel="nofollow sponsored noopener">Ver</a>
+  </div>
+  
+  <div class="item" data-search="3 03 base matte payot alta cobertura 30ml cherrie nova boca rosa">
+    <img class="thumb" src="../fotos/shopee-26.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 03</div>
+      <div class="name">Base Matte Payot Alta Cobertura 30ml Cherrie Nova Boca Rosa</div>
+      <div><span class="price">R$ 49,90</span></div>
+      <div class="when">preço consultado em 17/11 20:16</div>
+    </div>
+    <a class="btn" href="https://shopee.com.br/Base-Matte-Payot-Alta-Cobertura-30ml-Cherrie-Nova-Boca-Rosa-i.322432427.22293120563?extraParams=%7B%22display_model_id%22%3A159539936778%2C%22model_selection_logic%22%3A3%7D&amp;image_ids=sg-11134201-7rd63-lwzxd0qojoga8f" target="_blank" rel="nofollow noopener">Ver</a>
+  </div>
+  
+  <div class="item" data-search="2 02 pó translúcido solto playboy maquiagem profissional efeito photo acabamento natural matte">
+    <img class="thumb" src="../fotos/shopee-27.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 02</div>
+      <div class="name">Pó Translúcido Solto Playboy Maquiagem Profissional Efeito Photo Acabamento Natural Matte</div>
+      <div><span class="price">R$ 15,50</span><span class="old">R$ 29,90</span><span class="off">-48%</span></div>
+      <div class="when">preço consultado em 17/11 20:16</div>
+    </div>
+    <a class="btn" href="https://shopee.com.br/P%C3%B3-Transl%C3%BAcido-Solto-Playboy-Maquiagem-Profissional-Efeito-Photo-Acabamento-Natural-Matte-i.1594620662.22994298967?extraParams=%7B%22display_model_id%22%3A239426366832%2C%22model_selection_logic%22%3A3%7D&amp;image_ids=br-11134207-7r98o-md67ekl32pf605" target="_blank" rel="nofollow noopener">Ver</a>
+  </div>
+  
+  <div class="item" data-search="1 01 bb creambase corretivo com esponja com formato de cogumelo base clareador maquiagem creme clareador cor marfim e natural">
+    <img class="thumb" src="../fotos/shopee-25.jpg" alt="" loading="lazy">
+    
+    <div class="info">
+      <div class="num">Achadinho nº 01</div>
+      <div class="name">BB CreamBase Corretivo com Esponja com Formato de Cogumelo Base Clareador Maquiagem Creme Clareador Cor Marfim e Natural</div>
+      <div><span class="price">R$ 27,59</span><span class="old">R$ 27,88</span></div>
+      <div class="when">preço consultado em 17/11 17:50</div>
+    </div>
+    <a class="btn" href="https://shopee.com.br/BB-CreamBase-Corretivo-com-Esponja-com-Formato-de-Cogumelo-Base-Clareador-Maquiagem-Creme-Clareador-Cor-Marfim-e-Natural-i.1347491961.23993471317?extraParams=%7B%22display_model_id%22%3A229411310103%2C%22model_selection_logic%22%3A3%7D&amp;image_ids=br-11134207-7r98o-m1jvmgodmffube" target="_blank" rel="nofollow noopener">Ver</a>
+  </div>
+  
+  <p class="empty" id="none" hidden>Nenhum achadinho encontrado com esse número.</p>
+</main>
+<footer>
+  #publi — alguns links desta página são de afiliado: posso receber comissão pelas compras, sem custo extra para você.<br>
+  Preços e estoque podem mudar a qualquer momento; confira na loja antes de comprar.<br>Atualizado em 21/11/2026 08:12.
+</footer>
+<script>
+  const q = document.getElementById('q'), items = [...document.querySelectorAll('.item')], none = document.getElementById('none');
+  q.addEventListener('input', () => {
+    const t = q.value.trim().toLowerCase(); let shown = 0;
+    items.forEach(el => { const s = el.dataset.search; const ok = !t || (/^\d+$/.test(t) ? s.split(' ')[0] === t : s.includes(t)); el.hidden = !ok; shown += ok; });
+    none.hidden = shown > 0 || !t;
+  });
+  const h = location.hash.replace('#', ''); if (h) { q.value = h; q.dispatchEvent(new Event('input')); }
+</script>
+</body>
+</html>
